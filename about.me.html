@@ -1,19 +1,38 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>About - Hajra Arshad</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
+    body { 
+      font-family: Arial, sans-serif; 
+      margin: 0; padding: 0; 
+      background-color: #f4f4f4; 
+      color: #333; 
+      text-align: center;
+    }
     header, nav, section, footer { padding: 20px; margin: 10px; }
-    header { background-color: #333; color: white; text-align: center; }
+    header { background-color: #333; color: white; }
     nav a { margin: 0 15px; text-decoration: none; color: #333; font-weight: bold; }
     nav a:hover { color: #555; }
-    .profile-img { width: 200px; height: 200px; object-fit: cover; border-radius: 50%; display: block; margin: 20px auto; }
-    footer { text-align: center; font-size: 0.9em; color: #777; }
+    .profile-img { 
+      width: 200px; height: 200px; 
+      border-radius: 50%; 
+      margin-top: 20px; 
+    }
+    .next-btn {
+      display: inline-block; padding: 10px 20px;
+      background-color: #333; color: white;
+      text-decoration: none; border-radius: 5px;
+      font-weight: bold; margin-top: 20px;
+    }
+    .next-btn:hover { background-color: #555; }
   </style>
 </head>
+
 <body>
+
   <header>
     <h1>Hajra Arshad</h1>
     <p>Computer Science Student</p>
@@ -22,17 +41,26 @@
   <nav>
     <a href="about.html">About Me</a>
     <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact Me</a>
+    
   </nav>
 
   <section>
     <h2>About Me</h2>
-    <p>Hello! I'm Hajra Arshad, a passionate Computer Science student exploring web development, design, and technology. I enjoy helping others, exploring innovative tools, and applying my skills to create meaningful solutions.</p>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbmQHApY9JIPEUQyBoSNnQgVZkq7VD5Fj2HQ&s" alt="Hajra Arshad" class="profile-img">
+    <p style="width: 60%; margin: auto;">
+      Hello! I'm Hajra Arshad, a passionate Computer Science student exploring web development, 
+      design, and technology. I enjoy helping others and creating useful digital solutions.
+    </p>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbmQHApY9JIPEUQyBoSNnQgVZkq7VD5Fj2HQ&s" 
+    class="profile-img">
+
+    <a class="next-btn" href="projects.html">NEXT</a>
   </section>
 
   <footer>
     <p>&copy; 2025 Hajra Arshad</p>
   </footer>
+
 </body>
 </html>
+

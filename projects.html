@@ -24,7 +24,7 @@
   <nav>
     <a href="about.html">About Me</a>
     <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact Me</a>
+    
   </nav>
 
   <section>
@@ -45,53 +45,97 @@
     </ul>
   </section>
 
-  <footer>
-    <p>&copy; 2025 Hajra Arshad</p>
-  </footer>
 </body>
 </html>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact - Hajra Arshad</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
-    header, nav, section, footer { padding: 20px; margin: 10px; }
-    header { background-color: #333; color: white; text-align: center; }
-    nav a { margin: 0 15px; text-decoration: none; color: #333; font-weight: bold; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+      text-align: center;
+    }
+
+    /* Container style to match Projects page */
+    .container {
+      width: 60%;
+      margin: 20px auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-weight: normal; /* Not bold */
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
     nav a:hover { color: #555; }
-    footer { text-align: center; font-size: 0.9em; color: #777; }
-    ul { list-style: none; padding: 0; }
-    li { margin: 8px 0; }
-    a { color: #333; text-decoration: none; }
-    a:hover { color: #555; }
+
+    .icons img {
+      width: 60px;
+      margin: 20px;
+      transition: 0.3s;
+    }
+    .icons img:hover {
+      transform: scale(1.1);
+    }
+
+    footer {
+      color: #777;
+      margin-top: 20px;
+      font-size: 0.9em;
+    }
   </style>
 </head>
 <body>
-  <header>
-    <h1>Hajra Arshad</h1>
-    <p>Computer Science Student</p>
-  </header>
 
-  <nav>
-    <a href="about.html">About Me</a>
-    <a href="projects.html">Projects</a>
-    <a href="contact.html">Contact Me</a>
-  </nav>
+  <div class="container ">
 
-  <section>
-    <h2>Contact Me</h2>
-    <ul>
-      <li>Phone: 03179749192</li>
-      <li>Email: <a href="mailto:hajraarshad90a@gmail.com">hajraarshad90a@gmail.com</a></li>
-      <li>LinkedIn: <a href="https://linkedin.com/in/hajraarshad" target="_blank">linkedin.com/in/hajraarshad</a></li>
-      <li>GitHub: <a href="https://github.com/hajraarshad" target="_blank">github.com/hajraarshad</a></li>
-    </ul>
-  </section>
+    <header>
+      <h1>Contact Me</h1>
+    </header>
 
-  <footer>
-    <p>&copy; 2025 Hajra Arshad</p>
-  </footer>
+    <section>
+      <h2>Get in Touch</h2>
+
+      <div class="icons">
+        <!-- Phone -->
+        <a href="tel:+923179749192">
+          <img src="https://cdn-icons-png.flaticon.com/128/724/724664.png" alt="Phone">
+        </a>
+
+        <!-- Email -->
+        <a href="mailto:hajraarshad90a@gmail.com">
+          <img src="https://cdn-icons-png.flaticon.com/128/732/732200.png" alt="Email">
+        </a>
+      </div>
+
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Hajra Arshad</p>
+    </footer>
+
+  </div>
+
 </body>
 </html>
+
+   
